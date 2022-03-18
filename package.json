@@ -1,0 +1,28 @@
+{
+  "name": "ptr-react-lib",
+  "version": "0.0.1",
+  "description": "A POC for react lib",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/sanchez.edison/ptr-react-lib.git"
+  },
+  "keywords": [
+    "lib",
+    "react",
+    "poc"
+  ],
+  "author": "Edison Sanchez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/sanchez.edison/ptr-react-lib/issues"
+  },
+  "homepage": "https://gitlab.com/sanchez.edison/ptr-react-lib#readme",
+  "devDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
