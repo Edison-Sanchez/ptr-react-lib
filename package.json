@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build-lib": "rollup -c",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
@@ -25,6 +26,9 @@
   "homepage": "https://gitlab.com/sanchez.edison/ptr-react-lib#readme",
   "devDependencies": {
     "@babel/core": "^7.17.7",
+    "@babel/preset-react": "^7.16.7",
+    "@rollup/plugin-babel": "^5.3.1",
+    "@rollup/plugin-node-resolve": "^13.1.3",
     "@storybook/addon-actions": "^6.4.19",
     "@storybook/addon-essentials": "^6.4.19",
     "@storybook/addon-interactions": "^6.4.19",
@@ -33,11 +37,14 @@
     "@storybook/testing-library": "^0.0.9",
     "babel-loader": "^8.2.3",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "rollup": "^2.70.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4"
   },
   "peerDependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
-  },
-  "dependencies": {}
+  }
 }
