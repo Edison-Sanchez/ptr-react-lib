@@ -2,7 +2,8 @@
   "name": "ptr-react-lib",
   "version": "0.0.1",
   "description": "A POC for react lib",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-lib": "rollup -c",

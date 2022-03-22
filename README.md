@@ -21,3 +21,8 @@ Create components.
 ```bash
 npm run build-lib
 ```
+
+```bash
+npm set registry http://ec2-54-227-233-82.compute-1.amazonaws.com:4873/
+npm login
+```
