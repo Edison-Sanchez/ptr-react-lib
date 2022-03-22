@@ -22,6 +22,19 @@ npx sb init
 - Remove default files and folders created in the project
 - You could install more plugins but on this guide we will not use them.
 
+### Adding eslint and prettier
+
+```properties
+npm install --save-dev eslint
+npx eslint --init
+npm install eslint-config-prettier eslint-plugin-prettier prettier --save-dev
+```
+ After installing above, make changes to .eslintrc file.
+
+```javascript
+ "extends": ["eslint:recommended", "plugin:react/recommended", "plugin:prettier/recommended"]
+ ```
+
 ### Adding Rollup
 
 ```properties
@@ -29,6 +42,8 @@ npx sb init
  npm install --save-dev rollup-plugin-postcss
  npm install --save-dev rollup-plugin-terser
 ```
+
+
 
 ### Adding Script 
 
