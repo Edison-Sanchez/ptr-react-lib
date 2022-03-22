@@ -1,6 +1,6 @@
 {
   "name": "ptr-react-lib",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A POC for react lib",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -37,6 +37,7 @@
     "@storybook/react": "^6.4.19",
     "@storybook/testing-library": "^0.0.9",
     "babel-loader": "^8.2.3",
+    "eslint": "^8.11.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "rollup": "^2.70.1",

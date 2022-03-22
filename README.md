@@ -1,28 +1,43 @@
-# INSTALLING
+# REACT APP LIBRARY 
+> Not using Create-React-App
 
-- git clone
+## Setup
 
-```bash
+```properties
 npm init
+npm install --save-dev react react-dom
+mkdir src
+touch .gitignore
+echo node_modules > .gitignore
 ```
 
-npm install --save-dev react react-dom
+### Storybook
 
+Install and configure Storybook
+
+```properties
 npx sb init
+```
 
-Create components.
+- Remove default files and folders created in the project
+- You could install more plugins but on this guide we will not use them.
 
-```bash
+### Adding Rollup
+
+```properties
  npm install --save-dev rollup rollup-plugin-babel rollup-plugin-node-resolve rollup-plugin-peer-deps-external @rollup/plugin-babel @babel/preset-react
  npm install --save-dev rollup-plugin-postcss
  npm install --save-dev rollup-plugin-terser
 ```
 
-```bash
+### Adding Script 
+
+```properties
 npm run build-lib
 ```
 
-```bash
+## Set Verdaccio
+```properties
 npm set registry http://ec2-54-227-233-82.compute-1.amazonaws.com:4873/
 npm login
 ```
